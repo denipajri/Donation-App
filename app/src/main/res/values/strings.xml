@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Donation App</string>
+
+    <string name="add_donatur_name">Add Donatur Name</string>
+    <string name="donatur_name">Donatur Name</string>
+    <string name="donation_date">Donation Date</string>
+    <string name="category">Category</string>
+    <string name="amount">Amount</string>
+    <string name="no_donation">No Donation</string>
+    <string name="text_empty_content">No Donation Found</string>
+    <string name="add_donation">Add Donation</string>
+    <string name="update_donation">Update Donation</string>
+    <string name="delete_donation">Delete Donation</string>
+    <string name="all_donations_title">Donates List</string>
+
+</resources>
