@@ -56,15 +56,12 @@ import com.application.donation_app.views.utils.CustomUpdateButton
 @Composable
 fun DonateDetailScreen(id: Int, donatesViewModel: DonatesViewModel, navController: NavController) {
     val context = LocalContext.current
-    val donates = remember { mutableStateOf<Donate?>(null) }
     var donaturNameState: String? by remember { mutableStateOf(null) }
     var tglDonasiState: String? by remember { mutableStateOf(null) }
     var categoryState: String? by remember { mutableStateOf(null) }
     var amountState: String? by remember { mutableStateOf(null) }
-    var isTglDonasiDropDownExpanded by remember { mutableStateOf(false) }
     var isCategoryDropDownExpanded by remember { mutableStateOf(false) }
     var isAmountDropDownExpanded by remember { mutableStateOf(false) }
-    val tglDonasiList = listOf("A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9","B1", "B2", "B3", "B4", "B5", "B6", "B7", "B8", "B9","C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8", "C9")
     val categoryList = listOf("Education ", "Society", "Environmental", "Natural Disaster")
     val amountList = listOf(
         "Rp. 50,000 ",
